@@ -9,7 +9,6 @@ def guess(x):
             print('To low. Try again.')
         elif guess > random_number:
             print('To high. Try again.')
-        else:
-            print('YAY! You did it! Congrats!')
+    print('YAY! You did it! Congrats!')
 
 print(guess(5))
