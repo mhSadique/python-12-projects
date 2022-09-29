@@ -1,0 +1,22 @@
+adj = input('Adjective: ')
+verb1 = input('Verb: ')
+verb2 = input('Verb: ')
+famous_character = input('Famous Character: ')
+
+madlib = f'Computer programming is so {adj}! It makes so excited all the time because \
+I love to {verb1}. Stay hydrated and {verb2} like you are {famous_character}'
+
+print(madlib)
+
+
+
+
+
+
+
+# ways of contatenating strings
+
+# dev = 'Sadique'
+# print('Subscribe to ' + dev)
+# print('Subscribe to {}'.format(dev))
+# print(f'Subscribe to {dev}')
